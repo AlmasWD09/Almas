@@ -1,16 +1,16 @@
 [
     {
-      "image": "../src/assets/protfolio/protfolio-image01.png",
+      "image": "https://ibb.co/xMQVx9p",
       "name": "TeachEm",
       "description": "TeachEm is an online platform offering courses and study materials, enhancing learning with modern web technologies"
     },
     {
-      "image": "../src/assets/protfolio/protfolio-image02.png",
+      "image": "https://ibb.co/XyKGKJK",
       "name": "Online study",
       "description": "The online study website offers diverse courses and resources, utilizing modern tech for enhanced learning experiences"
     },
     {
-      "image": "../src/assets/protfolio/protfolio-image03.png",
+      "image": "https://ibb.co/KrhrGgv",
       "name": "Ceramice and poettery",
       "description": "The ceramics and pottery website showcases beautiful handcrafted pieces, offers classes, and inspires creativity and craftsmanship"
     }
