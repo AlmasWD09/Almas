@@ -10,7 +10,7 @@ export default {
         'lato': ["Lato", "sans-serif"],
       },
       colors: {
-        'primary': '#243c5a',
+        'primary': 'green',
       },
     },
   },

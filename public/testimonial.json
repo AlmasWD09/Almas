@@ -1,0 +1,33 @@
+[
+    {
+      "image": "../src/assets/images/html5.png",
+      "name": "John Doe",
+      "description": "John is a software developer with over 10 years of experience in full stack development."
+    },
+    {
+      "image": "../src/assets/images/css.png",
+      "name": "Jane Smith",
+      "description": "Jane is a digital artist who specializes in creating stunning visual content for online platforms."
+    },
+    {
+      "image": "../src/assets/images/js.png",
+      "name": "Alice Johnson",
+      "description": "Alice is a marketing expert with a focus on social media strategies and brand management."
+    },
+    {
+      "image": "../src/assets/images/react.png",
+      "name": "Bob Brown",
+      "description": "Bob is a data scientist who loves turning data into actionable insights for businesses."
+    },
+    {
+      "image": "../src/assets/images/firebase.png",
+      "name": "Emma Davis",
+      "description": "Emma is a seasoned project manager with a track record of successfully delivering large-scale projects."
+    },
+    {
+      "image": "../src/assets/images/mongodb.png",
+      "name": "Charlie Wilson",
+      "description": "Charlie is a content writer who has written for numerous blogs and websites, focusing on technology and education."
+    }
+  ]
+  

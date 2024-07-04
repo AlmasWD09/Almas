@@ -4,11 +4,11 @@ import Container from "../Shared/Container";
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     return (
-        <nav className=" bg-white shadow dark:bg-gray-800 py-4">
+        <nav className=" bg-green-100 shadow dark:bg-gray-800 py-4">
         <Container>
           <div className=" lg:flex lg:items-center lg:justify-between">
             <div className="flex items-center justify-between">
-              <h1 className="text-2xl font-semibold font-lato">Almas</h1>
+              <h1 className="text-2xl font-semibold font-lato">Almas Hossain</h1>
   
               {/* Mobile menu button */}
               <div className="flex lg:hidden">
@@ -50,21 +50,21 @@ const Navbar = () => {
               }`}
             >
               <div className="flex flex-col -mx-6 lg:flex-row lg:items-center lg:mx-8">
-                <a href="#" className="px-3 py-2 mx-3 text-gray-700 hover:underline underline-offset-8 hover:text-red-400 font-lato">
+                <a href="#" className="px-3 py-2 mx-3 text-gray-700 hover:underline underline-offset-8 hover:text-primary font-lato">
                   Home
                 </a>
-                <a href="#" className="px-3 py-2 mx-3 text-gray-700 hover:underline underline-offset-8 hover:text-red-400 font-lato">
+                <a href="#" className="px-3 py-2 mx-3 text-gray-700 hover:underline underline-offset-8 hover:text-primary font-lato">
                   About
                 </a>
-                <a href="#" className="px-3 py-2 mx-3 text-gray-700 hover:underline underline-offset-8 hover:text-red-400 font-lato">
+                <a href="#" className="px-3 py-2 mx-3 text-gray-700 hover:underline underline-offset-8 hover:text-primary font-lato">
                   Blogs
                 </a>
-                <a href="#" className="px-3 py-2 mx-3 text-gray-700 hover:underline underline-offset-8 hover:text-red-400 font-lato">
+                <a href="#" className="px-3 py-2 mx-3 text-gray-700 hover:underline underline-offset-8 hover:text-primary font-lato">
                   Protfolio
                 </a>
               </div>
               <div className="flex">
-              <button className="btn bg-green-400 text-white px-2 py-1">Contact</button>
+              <button className="btn bg-green-400 text-white px-2 py-1"><a href="#contact">Contact</a></button>
             </div>
             </div>
           </div>
