@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 const Protfolio = () => {
     const [categories, setCategories] = useState([])
     useEffect(() => {
-        fetch('/protfolio.json')
+        fetch('./protfolio.json')
             .then(res => res.json())
             .then(data => setCategories(data))
     }, [])
