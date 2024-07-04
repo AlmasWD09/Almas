@@ -22,8 +22,8 @@ const Protfolio = () => {
                                 <h1 className="text-xl font-semibold">{singleCategory.name}</h1>
                                 <p><small>{singleCategory.description}</small></p>
                                 <div className="flex justify-end py-3">
-                                <a href="https://teachem-a2347.web.app" className="text-2xl hover:bg-primary p-2 rounded-full"><FaGithub /></a>
-                                <span className="text-2xl hover:bg-primary p-2 rounded-full"><FaGithub /></span>
+                                <button className=" px-8 py-2.5 leading-5 text-white transition-colors duration-300 transform bg-primary rounded-md hover:bg-gray-600 focus:outline-none focus:bg-gray-600"><a href={singleCategory.link}>Live</a></button>
+                                <button className=" px-8 py-2.5 leading-5 text-white transition-colors duration-300 transform bg-primary rounded-md hover:bg-gray-600 focus:outline-none focus:bg-gray-600"><a href={singleCategory.github}>Github</a></button>
                                 </div>
                                 </div>
                             </div>

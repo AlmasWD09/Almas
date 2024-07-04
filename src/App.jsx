@@ -7,7 +7,7 @@ import Footer from './components/Footer/Footer'
 import Navbar from './components/Navbar/Navbar'
 import Protfolio from './components/Protfolio/Protfolio'
 import SkillPart from './components/SkillPart/SkillPart'
-import Testimonial from './components/Testimonial/Testimonial'
+
 
 function App() {
 
@@ -20,7 +20,6 @@ function App() {
     <Education />
     <Protfolio />
     <SkillPart />
-    {/* <Testimonial /> */}
     <Contact />
     <Footer />
     </div>
