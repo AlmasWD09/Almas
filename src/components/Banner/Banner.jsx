@@ -8,10 +8,6 @@ const Banner = () => {
                 <div>
                     <h1 className="text-xl font-semibold">Hi' I am <span className=" text-primary">Almas Hossain</span></h1>
                     <h2 className="text-xl font-semibold">I am Passionate Jr.Front End Developer</h2>
-                    <div>
-                        <p className="max-w-xl py-4">I have extensive and varied experience in front-end development, including working as a jr.front-end developer, so I've implemented and debugged most aspects of front-end technologies and I know how to avoid potential pitfalls before stepping into them. Love learning and working with new technologies.</p>
-                    </div>
-                    
                     <button className="btn bg-green-400 px-2 py-1"><a href={resume} download="resume.pdf">Download Cv</a></button>
                 </div>
                 <div className="">

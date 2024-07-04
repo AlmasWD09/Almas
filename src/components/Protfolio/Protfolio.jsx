@@ -21,7 +21,7 @@ const Protfolio = () => {
                                 <div className="px-4">
                                 <h1 className="text-xl font-semibold">{singleCategory.name}</h1>
                                 <p><small>{singleCategory.description}</small></p>
-                                <div className="flex justify-end py-3">
+                                <div className="flex gap-3 py-3">
                                 <button className=" px-8 py-2.5 leading-5 text-white transition-colors duration-300 transform bg-primary rounded-md hover:bg-gray-600 focus:outline-none focus:bg-gray-600"><a href={singleCategory.link}>Live</a></button>
                                 <button className=" px-8 py-2.5 leading-5 text-white transition-colors duration-300 transform bg-primary rounded-md hover:bg-gray-600 focus:outline-none focus:bg-gray-600"><a href={singleCategory.github}>Github</a></button>
                                 </div>
